@@ -1,6 +1,7 @@
 name: Hello Flow
 
-on: workflow_dispatch
+on:
+  push
 
 jobs:
   first-job:
